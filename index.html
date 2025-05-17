@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="flex justify-between items-center p-5 shadow-md">
+    <h1 class="text-2xl font-bold text-orange-500">DesignX</h1>
+    <ul class="flex space-x-6 text-sm font-medium">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#" class="text-orange-500">Login</a></li>
+    </ul>
+    </nav>
+
+    <!--Hero Section-->
+    <section class="text-center py-20 bg-gray-50">
+    <h2 class="text-4xl font-bold">Unlock Your Creative Potential</h2>
+    <p class="mt-4 text-gray-600">with Online Design and Development Courses.</p>
+    <div class="mt-6 flex justify-center gap-4">
+        <button class="bg-orange-500 text-white px-6 py-2 rounded-full">Explore Courses</button>
+        <button class="border border-orange-500 text-orange-500 px-6 py-2 rounded-full">Watch Video</button>
+    </div>
+    </section>
+
+    <!--Partner Logo-->
+    <section class="py-10 bg-white">
+    <div class="flex justify-around items-center max-w-5xl mx-auto">
+        <img src="assets/logo1.png" class="h-8" alt="logo">
+        <img src="assets/logo2.png" class="h-8" alt="logo">
+        <img src="assets/logo3.png" class="h-8" alt="logo">
+        <!-- Add more logos -->
+    </div>
+    </section>
+
+    <!--Benefit Section-->
+    <section class="py-16 bg-gray-100 text-center">
+    <h3 class="text-2xl font-bold mb-6">Benefits</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div>
+        <h4 class="text-xl font-semibold mb-2">01</h4>
+        <p>Flexible Learning Schedule</p>
+        </div>
+        <div>
+        <h4 class="text-xl font-semibold mb-2">02</h4>
+        <p>Expert Instructors</p>
+        </div>
+        <div>
+        <h4 class="text-xl font-semibold mb-2">03</h4>
+        <p>Diverse Course Offerings</p>
+        </div>
+        <!-- More benefits -->
+    </div>
+    </section>
+
+    <!--Course Section-->
+    <section class="py-20">
+    <h3 class="text-2xl font-bold text-center mb-10">Our Courses</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto px-4">
+        <div class="border rounded-lg shadow hover:shadow-lg transition">
+        <img src="assets/course1.jpg" alt="" class="rounded-t-lg">
+        <div class="p-4">
+            <h4 class="font-semibold text-lg">UI/UX Design</h4>
+            <p class="text-sm text-gray-600">Learn modern interface design techniques.</p>
+        </div>
+        </div>
+        <!-- More course cards -->
+    </div>
+    </section>
+
+    <!--Pricing Section-->
+    <section class="bg-gray-50 py-20 text-center">
+    <h3 class="text-2xl font-bold mb-6">What Students Say</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <div class="bg-white p-6 rounded shadow">
+        <p>"The instructors are fantastic. I landed my first job!"</p>
+        <span class="block mt-4 font-bold text-orange-500">— Emma</span>
+        </div>
+        <!-- More testimonials -->
+    </div>
+    </section>
+
+    <!--Course Section-->
+    <section class="py-20 bg-white text-center">
+    <h3 class="text-2xl font-bold mb-8">Our Pricing</h3>
+    <div class="flex flex-col md:flex-row justify-center gap-8 max-w-4xl mx-auto">
+    <!-- Free Plan -->
+    <div class="border p-6 rounded-lg w-full md:w-1/2">
+      <h4 class="text-xl font-semibold mb-2">Free Plan</h4>
+      <p class="text-3xl font-bold mb-4">BDT0</p>
+      <ul class="text-sm text-left mb-4 space-y-1">
+        <li>✔ Basic Courses</li>
+        <li>✔ Email Support</li>
+      </ul>
+      <button class="bg-orange-500 text-white px-6 py-2 rounded-full">Get Started</button>
+    </div>
+    <!-- Pro Plan -->
+    <div class="border p-6 rounded-lg w-full md:w-1/2">
+      <h4 class="text-xl font-semibold mb-2">Pro Plan</h4>
+      <p class="text-3xl font-bold mb-4">BDT799</p>
+      <ul class="text-sm text-left mb-4 space-y-1">
+        <li>✔ All Courses</li>
+        <li>✔ Certificate</li>
+        <li>✔ Priority Support</li>
+      </ul>
+      <button class="bg-orange-500 text-white px-6 py-2 rounded-full">Buy Now</button>
+    </div>
+    </div>
+    </section>
+
+    <!--FAQ Section-->
+    <section class="py-20 bg-gray-100">
+    <h3 class="text-2xl font-bold text-center mb-10">Frequently Asked Questions</h3>
+    <div class="max-w-2xl mx-auto">
+        <div class="mb-4">
+        <button class="w-full text-left p-4 bg-white shadow" onclick="toggleFAQ('faq1')">
+            How do I register?
+        </button>
+        <div id="faq1" class="p-4 hidden bg-white border-t">Click on 'Explore Courses' and follow the signup process.</div>
+        </div>
+        <!-- Add more FAQs -->
+    </div>
+    </section>
+
+    <!--FAQ Section-->
+    <footer class="py-10 bg-white text-center text-sm text-gray-600">
+    <p>&copy; 2025 DesignX. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
