@@ -1,0 +1,40 @@
+
+/* Custom Fonts or Overrides */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom Button Hover */
+.btn-orange {
+  background-color: #f97316; /* Tailwind orange-500 */
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 9999px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-orange:hover {
+  background-color: #ea580c; /* orange-600 */
+}
+
+/* FAQ Toggle Animation */
+.faq-answer {
+  transition: max-height 0.4s ease-in-out;
+  overflow: hidden;
+}
+
+/* Course Card Hover Effect */
+.course-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Accordion Active State */
+.active-faq {
+  background-color: #fff7ed; /* Light orange */
+  border-left: 4px solid #f97316;
+}
